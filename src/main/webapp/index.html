@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="ISO-8859-1">
+	<title>Insert title here</title>
+	<style>
+		main{
+			display:flex;	
+			align-items: center;
+			
+			flex-direction: column;
+		}
+		
+		.card{
+			display: block;
+			width: 100%;
+			height: 100%;
+		}
+	</style>
+</head>
+	<body>
+	<main>
+		<div>
+			<h1>Hola !</h1>
+			<p> Este es un fichero de pruebas.</p>
+			<p> Si quieres entrar el usuario es <b>jotape</b> y la constraseña es <b>12345</b></p>
+			<form action="./Servlet" method="POST">
+				<div>
+						<label>Nombre</label>
+						<input type="text"/ name="nombre">
+					</div>
+					<div>
+						<label>Password</label>
+						<input type="password" name="password"/>
+					</div>
+					
+					<input type="submit">
+				</div>
+			</form>
+	</main>
+	</body>
+</html>
